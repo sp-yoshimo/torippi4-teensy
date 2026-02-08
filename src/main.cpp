@@ -101,11 +101,6 @@ void command_execute(String command)
         Serial.println("Action: Stopping");
         servo_maneuver.stop();
     }
-    else if (command == "M")
-    {
-        Serial.println("rotate");
-        servo_maneuver.turnRight();
-    }
     else
     {
         Serial.println("Unknown Command");

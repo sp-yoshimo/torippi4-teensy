@@ -30,8 +30,8 @@ void ServoManeuver::turnRight() {
 
 
 void ServoManeuver::turnLeft() {
-    left_servo_.rotateSpeed(left_forward_speed_slow_);
-    right_servo_.rotateSpeed(right_forward_speed_);
+    left_servo_.rotateSpeed(left_forward_speed_slow_2);
+    right_servo_.rotateSpeed(right_forward_speed_2);
 }
 
 void ServoManeuver::stop() {
