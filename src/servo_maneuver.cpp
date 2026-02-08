@@ -24,9 +24,10 @@ void ServoManeuver::moveBackward() {
 }
 
 void ServoManeuver::turnRight() {
-    left_servo_.rotateSpeed(left_forward_speed_);
-    right_servo_.rotateSpeed(right_forward_speed_slow_);
+    left_servo_.rotateSpeed(left_forward_speed_2);
+    right_servo_.rotateSpeed(right_forward_speed_slow_2);
 }
+
 
 void ServoManeuver::turnLeft() {
     left_servo_.rotateSpeed(left_forward_speed_slow_);
@@ -40,6 +41,6 @@ void ServoManeuver::stop() {
 
 
 void ServoManeuver::slowRotate() {
-    left_servo_.rotateSpeed(0);
-    right_servo_.rotateSpeed(1);
+    left_servo_.rotateSpeed(3);
+    right_servo_.rotateSpeed(0);
 }

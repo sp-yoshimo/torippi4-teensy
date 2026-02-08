@@ -104,7 +104,7 @@ void command_execute(String command)
     else if (command == "M")
     {
         Serial.println("rotate");
-        servo_maneuver.slowRotate();
+        servo_maneuver.turnRight();
     }
     else
     {

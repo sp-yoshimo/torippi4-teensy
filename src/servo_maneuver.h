@@ -17,12 +17,15 @@ private:
     ServoMotor left_servo_;
     ServoMotor right_servo_;
     int stop_speed_               = 0;
-    int left_forward_speed_       = 10;
+    int left_forward_speed_       = 10; //10
+    int left_forward_speed_2       = 5; //10
     int left_forward_speed_slow_  = 2;
     int left_backward_speed_      = -10;
     int right_forward_speed_      = -12;
-    int right_forward_speed_slow_ = -2;
+    int right_forward_speed_slow_ = -2; //-2
+    int right_forward_speed_slow_2 = -1; //-2
     int right_backward_speed_     = 10;
+
 };
 
 #endif // SERVOMANEUVER_H
